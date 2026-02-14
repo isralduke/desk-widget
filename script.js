@@ -65,12 +65,12 @@ async function updateWeather() {
         const tempF = Math.round(data.current.temperature_2m);
         const tempC = Math.round((tempF - 32) * 5 / 9);
         
-        document.getElementById('temperature').textContent = `${tempF}`;
-        document.getElementById('tempUnits').textContent = `°F / ${tempC}°C`;
+        document.getElementById('tempF').textContent = `${tempF}`;
+        document.getElementById('tempC').textContent = `${tempC}`;
     } catch (error) {
         console.error('Error fetching weather:', error);
-        document.getElementById('temperature').textContent = '--';
-        document.getElementById('tempUnits').textContent = '°F / --°C';
+        document.getElementById('tempF').textContent = '--';
+        document.getElementById('tempC').textContent = '--';
     }
 }
 

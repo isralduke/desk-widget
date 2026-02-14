@@ -69,7 +69,7 @@ body.dark-mode .info-card {
 
 .time-card.medium .period {
     font-size: clamp(38px, 7vw, 75px);
-    font-weight: 700;
+    font-weight: 600;
     margin-left: 0.1em;
 }
 
@@ -88,10 +88,14 @@ body.dark-mode .info-card {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.info-card .units {
+.info-card .unit {
     font-size: clamp(28px, 5.5vw, 55px);
-    font-weight: 700;
-    margin-left: 0.1em;
+    font-weight: 600;
+}
+
+.info-card .separator {
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
