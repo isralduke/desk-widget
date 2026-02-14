@@ -17,27 +17,30 @@ function updateTimes() {
     const now = new Date();
     
     // Local time
-    const localTime = now.toLocaleTimeString('en-US', {
+    const localTimeStr = now.toLocaleTimeString('en-US', {
         hour: 'numeric',
         minute: '2-digit',
         hour12: true
     });
+    const [localTime, localPeriod] = localTimeStr.split(' ');
     document.getElementById('localTime').textContent = localTime;
+    document.getElementById('localPeriod').textContent = ' ' + localPeriod;
     
     // Sofia, Bulgaria time (UTC+2 in winter, UTC+3 in summer - EET/EEST)
-    const sofiaTime = now.toLocaleTimeString('en-US', {
+    const sofiaTimeStr = now.toLocaleTimeString('en-US', {
         hour: 'numeric',
         minute: '2-digit',
         hour12: true,
         timeZone: 'Europe/Sofia'
     });
+    const [sofiaTime, sofiaPeriod] = sofiaTimeStr.split(' ');
     document.getElementById('sofiaTime').textContent = sofiaTime;
+    document.getElementById('sofiaPeriod').textContent = ' ' + sofiaPeriod;
     
-    // Date
-    const date = now.toLocaleDateString('en-GB', {
-        day: 'numeric',
-        month: 'short'
-    });
+    // Date - format as "DD MMM" (e.g., "14 Feb")
+    const day = now.getDate();
+    const month = now.toLocaleDateString('en-US', { month: 'short' });
+    const date = `${day} ${month}`;
     document.getElementById('date').textContent = date;
 }
 
@@ -62,10 +65,12 @@ async function updateWeather() {
         const tempF = Math.round(data.current.temperature_2m);
         const tempC = Math.round((tempF - 32) * 5 / 9);
         
-        document.getElementById('temperature').textContent = `${tempF}°F / ${tempC}°C`;
+        document.getElementById('temperature').textContent = `${tempF}`;
+        document.getElementById('tempUnits').textContent = `°F / ${tempC}°C`;
     } catch (error) {
         console.error('Error fetching weather:', error);
-        document.getElementById('temperature').textContent = '--°F / --°C';
+        document.getElementById('temperature').textContent = '--';
+        document.getElementById('tempUnits').textContent = '°F / --°C';
     }
 }
 

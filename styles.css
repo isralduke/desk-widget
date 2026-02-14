@@ -55,10 +55,22 @@ body.dark-mode .info-card {
     letter-spacing: -0.02em;
 }
 
+.time-card.large .period {
+    font-size: clamp(50px, 9vw, 110px);
+    font-weight: 600;
+    margin-left: 0.1em;
+}
+
 .time-card.medium {
     font-size: clamp(60px, 12vw, 120px);
     font-weight: 700;
     letter-spacing: -0.02em;
+}
+
+.time-card.medium .period {
+    font-size: clamp(38px, 7vw, 75px);
+    font-weight: 700;
+    margin-left: 0.1em;
 }
 
 .info-row {
@@ -74,6 +86,12 @@ body.dark-mode .info-card {
     font-size: clamp(40px, 8vw, 80px);
     font-weight: 600;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.info-card .units {
+    font-size: clamp(28px, 5.5vw, 55px);
+    font-weight: 700;
+    margin-left: 0.1em;
 }
 
 @media (max-width: 768px) {
