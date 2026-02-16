@@ -37,65 +37,53 @@ body.dark-mode .info-card {
 
 .container {
     width: 90%;
-    max-width: 1200px;
-    padding: 20px;
+    max-width: 75rem;
 }
 
 .time-card {
-    border-radius: 20px;
-    padding: 40px;
+    border-radius: 1.25rem;
+    padding: 2rem;
     margin-bottom: 30px;
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.time-card.large {
-    font-size: clamp(80px, 15vw, 180px);
+.time-card {
+    font-size: clamp(5rem, 15vw, 11.25rem);
     font-weight: 700;
     letter-spacing: -0.02em;
 }
 
-.time-card.large .period {
-    font-size: clamp(50px, 9vw, 110px);
-    font-weight: 600;
-    margin-left: 0.1em;
-}
-
-.time-card.medium {
-    font-size: clamp(60px, 12vw, 120px);
-    font-weight: 700;
-    letter-spacing: -0.02em;
-}
-
-.time-card.medium .period {
-    font-size: clamp(38px, 7vw, 75px);
-    font-weight: 600;
+.period {
+    font-size: clamp(3.125rem, 9vw, 6.875rem);
+    font-weight: 800;
     margin-left: 0.1em;
 }
 
 .info-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .info-card {
-    border-radius: 20px;
-    padding: 40px;
+    border-radius: 1.25rem;
+    padding: 2rem;
     text-align: center;
-    font-size: clamp(40px, 8vw, 80px);
+    font-size: clamp(2.5rem, 8vw, 5rem);
     font-weight: 600;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.info-card .unit {
-    font-size: clamp(28px, 5.5vw, 55px);
+.unit {
+    font-size: clamp(1.75rem, 5.5vw, 3.4375rem);
     font-weight: 600;
 }
 
-.info-card .separator {
-    font-size: clamp(40px, 8vw, 80px);
-    font-weight: 600;
+.separator {
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    font-weight: 400;
+    opacity: .5;
 }
 
 @media (max-width: 768px) {

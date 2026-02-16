@@ -1,3 +1,6 @@
+// @ts-check
+/* eslint-env es2017 */
+
 // Theme management
 function updateTheme() {
     const now = new Date();
@@ -20,7 +23,8 @@ function updateTimes() {
     const localTimeStr = now.toLocaleTimeString('en-US', {
         hour: 'numeric',
         minute: '2-digit',
-        hour12: true
+        hour12: true,
+        timeZone: 'America/Chicago'
     });
     const [localTime, localPeriod] = localTimeStr.split(' ');
     document.getElementById('localTime').textContent = localTime;
