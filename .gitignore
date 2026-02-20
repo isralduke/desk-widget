@@ -11,3 +11,6 @@ node_modules
 # macOS related files
 .DS_Store
 
+# ignore claude
+claude
+
