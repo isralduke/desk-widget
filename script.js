@@ -81,7 +81,7 @@ async function updateWeather() {
 // Initialize and set up intervals
 function init() {
     // Update immediately
-    updateTheme();
+    // updateTheme();
     updateTimes();
     updateWeather();
     

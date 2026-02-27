@@ -9,6 +9,108 @@
   ],
   "creatorBuild" : "34704",
   "files" : {
+    "\/.claude\/worktrees\/dreamy-dirac\/.claude\/settings.local.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/.claude\/worktrees\/dreamy-dirac\/.claude\/settings.local-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/.claude\/worktrees\/dreamy-dirac\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.claude\/worktrees\/dreamy-dirac\/.gitignore",
+      "oF" : 0
+    },
+    "\/.claude\/worktrees\/dreamy-dirac\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.claude\/worktrees\/dreamy-dirac\/index.html",
+      "oF" : 0
+    },
+    "\/.claude\/worktrees\/dreamy-dirac\/script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/.claude\/worktrees\/dreamy-dirac\/script-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/.claude\/worktrees\/dreamy-dirac\/smart-crop.skill" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.claude\/worktrees\/dreamy-dirac\/smart-crop.skill",
+      "oF" : 0
+    },
+    "\/.claude\/worktrees\/dreamy-dirac\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/.claude\/worktrees\/dreamy-dirac\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/.claude\/worktrees\/ecstatic-newton\/.claude\/settings.local.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/.claude\/worktrees\/ecstatic-newton\/.claude\/settings.local-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/.claude\/worktrees\/ecstatic-newton\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.claude\/worktrees\/ecstatic-newton\/.gitignore",
+      "oF" : 0
+    },
+    "\/.claude\/worktrees\/ecstatic-newton\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.claude\/worktrees\/ecstatic-newton\/index.html",
+      "oF" : 0
+    },
+    "\/.claude\/worktrees\/ecstatic-newton\/script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/.claude\/worktrees\/ecstatic-newton\/script-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/.claude\/worktrees\/ecstatic-newton\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/.claude\/worktrees\/ecstatic-newton\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/.gitignore" : {
       "cB" : 0,
       "ft" : 8192,
@@ -16,6 +118,44 @@
       "oA" : 0,
       "oAP" : "\/.gitignore",
       "oF" : 0
+    },
+    "\/docs\/2026-02-19-codebase-research.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/2026-02-19-codebase-research.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/docs\/color-mode-toggle-changes.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docs\/color-mode-toggle-changes.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     },
     "\/index.html" : {
       "cB" : 0,
@@ -35,6 +175,18 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/styles-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/styles-min-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/styles.css" : {
       "aP" : 1,
